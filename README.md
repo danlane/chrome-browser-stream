@@ -1,5 +1,7 @@
 # Chrome Browser Stream
 
+(This was entirely made by AI, including this README)
+
 This Dockerised setup runs a headless Chromium browser in full-screen kiosk mode, renders any webpage in a virtual display (via Xvfb), and streams it live via RTSP to your home network. Perfect for dashboards, countdowns, signage, or anything else you want fullscreen on VLC, Apple TV, or a smart display.
 
 ## 🚀 Features
@@ -18,7 +20,7 @@ This Dockerised setup runs a headless Chromium browser in full-screen kiosk mode
 ## 🧰 Usage
 
 ```bash
-git clone https://github.com/<your-username>/chrome-browser-stream.git
+git clone https://github.com/danlane/chrome-browser-stream.git
 cd chrome-browser-stream
 docker compose up --build
 ```
