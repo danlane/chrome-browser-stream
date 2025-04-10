@@ -26,6 +26,6 @@ This Dockerised setup runs a headless Chromium browser in full-screen kiosk mode
 ## 🧰 Usage
 
 ```bash
-git clone https://github.com/<your-username>/chrome-browser-stream.git
+git clone https://github.com/danlane/chrome-browser-stream.git
 cd chrome-browser-stream
 docker compose up --build
