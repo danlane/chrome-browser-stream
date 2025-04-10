@@ -1,0 +1,14 @@
+services:
+  browser-streamer:
+    build: .
+    environment:
+      - DISPLAY_WIDTH=1280
+      - DISPLAY_HEIGHT=720
+      - DISPLAY_DEPTH=24
+    restart: unless-stopped
+
+  rtsp-server:
+    image: aler9/rtsp-simple-server
+    ports:
+      - "8555:8554"
+    restart: unless-stopped
